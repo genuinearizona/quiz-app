@@ -1,33 +1,39 @@
 body {
-	background: url('.../images/top-artist.jpg') no-repeat;
+    color: rgb(49, 49, 49);
+    font-family: 'Montserrat', sans-serif;
+    background-color: rgb(49, 49, 49);
+}
+
+.bgimg {
+	background: url(artist.jpg) no-repeat;
     background-size: cover;
     width: 100%;
     height: 100%;
     position: fixed;
     min-height: 700px;
-    color: rgb(153, 153, 153);
-    font-family: "Helvetica Neue";
-}
-
-.opacity {
-	height: 100%;
-	width: 100%;
-	background-color: white;
-	opacity: 0.3;
 }
 
 .container {
-	padding: 110px 100px 10px 100px;
-	width: 700px;
-	height: auto;
+	padding: 15px 0 18px 18px;
+	position: relative;
+	width: 586px;
+	height: 400px;
+	min-height: 100%;
+	background-color: rgba(153, 153, 153, 0.7);
+	top: 110px;
+	left: 100px;
+	border-radius: 5px;
 }
 
+#heading {
+	display: inline-block;
+}
 
 h1 {
-	padding-bottom: 24px;
-	font-size: 55px;
+	padding-bottom: 10px;
+	font-size: 50px;
 	font-variant: small-caps;
-	font-weight: 600;
+	font-weight: 100;
 }
 
 .status {
@@ -35,13 +41,13 @@ h1 {
 	padding: 10px 0 10px 0;
 	width: 100%;
 	text-align: left;
-	font-size: 20px;
-	color: rgb(92, 97, 136)
+	font-size: 16px;
+	color: rgb(27, 41, 77);
+	line-height: 30px;
 }
 
 #score {
 	display: inline-block;
-	margin: 0 170px 0 0;
 }
 
 #score p {
@@ -50,6 +56,7 @@ h1 {
 
 #question {
 	display: inline-block;
+	margin: 0 148px 0 0;
 }
 
 #question p {
@@ -59,56 +66,88 @@ h1 {
 .restart {
 	display: inline-block;
 	float: right;
-	margin: 0 125px 0 0;
-	color: rgb(136, 92, 92);
+	margin: 0 24px 0 0;
+	width: 57px;
+	position: relative;
+	border-radius: 5px;
+	color: #444444;
+	background-color: rgba(175, 175, 175, 0.76);
+	padding: 0px 5px;
+	font-size: 16px;
+	line-height: 29px;
 	cursor: pointer;
+	text-align: center;
+}
+
+.restart:hover {
+	color: black;
 }
 
 h4 {
-	padding: 20px 0 13px 0;
-	font-size: 28px;
-	font-weight: 500;
-
+	padding: 12px 0 13px 0;
+	font-size: 21px;
 }
 
-ol {
-	padding: 10px 0 0 77px;
+ul {
+	padding: 10px 0 0 42px;
 }
 
-ol li {
-	padding: 2px 111px 10px 0px;
-	font-size: 22px;
-	font-weight: 400;
+ul li {
+	padding: 2px 0 10px;
+	font-size: 16px;
 }
 
-.radio {
-	opacity: 0.7;
+.option {
+	opacity: 0.4;
+	margin-right: 10px;
+	position: relative;
+	bottom: 2px;
+	cursor: pointer;
 }
 
 .outcome {
 	display: inline-block;
-	padding: 25px 0 10px 42px;
+	padding: 15px 0 10px 0px;
 	width: 100%;
 	text-align: left;
-	font-size: 20px;
+	font-size: 16px;
+	line-height: 30px;
 }
 
 #correct {
 	display: inline-block;
-	color: rgb(94, 136, 92)
+	color: rgb(28, 77, 27);
+	font-size: 16px;
 }
 
 #incorrect {
 	display: inline-block;
-	color: rgb(136, 92, 92);
+	color: rgb(77, 27, 27);
+}
+
+#correct-answer {
+	display: inline-block;
+	padding-left: 4px;
 }
 
 #next {
 	display: inline-block;
-	color: rgb(153, 153, 153);
 	float: right;
+	margin: 0 24px 0 0;
+	width: 57px;
+	position: relative;
+	border-radius: 5px;
+	color: #444444;
+	background-color: rgba(175, 175, 175, 0.76);
+	padding: 0px 5px;
+	font-size: 16px;
+	line-height: 29px;
 	cursor: pointer;
-	margin: 0 191px 0 0;
+	text-align: center;
+}
+
+#next:hover {
+	color: black;
 }
 
 .correct-answer {
@@ -118,4 +157,17 @@ ol li {
 .reset {
 	margin-right: 267px;
 }
+
+.quiz-end {
+	margin: 10px 0 0 0;
+	float: left;
+}
+
+/* Firefox specific styles for heading */
+@-moz-document url-prefix() { 
+	h1 {
+	font-size: 44px;
+	}
+}
+
 
