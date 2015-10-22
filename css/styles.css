@@ -1,0 +1,172 @@
+body {
+    color: rgb(49, 49, 49);
+    font-family: 'Montserrat', sans-serif;
+    background-color: rgb(49, 49, 49);
+}
+
+.bgimg {
+	background: url(road-arrows.jpg) no-repeat;
+    background-size: cover;
+    width: 100%;
+    height: 100%;
+    position: fixed;
+    min-height: 700px;
+}
+
+.container {
+	padding: 15px 0 18px 18px;
+	position: relative;
+	width: 586px;
+	height: 400px;
+	min-height: 100%;
+	background-color: rgba(153, 153, 153, 0.7);
+	top: 110px;
+	left: 100px;
+	border-radius: 5px;
+}
+
+#heading {
+	display: inline-block;
+}
+
+h1 {
+	padding-bottom: 10px;
+	font-size: 50px;
+	font-variant: small-caps;
+	font-weight: 100;
+}
+
+.status {
+	display: inline-block;
+	padding: 10px 0 10px 0;
+	width: 100%;
+	text-align: left;
+	font-size: 16px;
+	color: rgb(27, 41, 77);
+	line-height: 30px;
+}
+
+#score {
+	display: inline-block;
+}
+
+#score p {
+	display: inline-block;
+}
+
+#question {
+	display: inline-block;
+	margin: 0 148px 0 0;
+}
+
+#question p {
+	display: inline-block;
+}
+
+.restart {
+	display: inline-block;
+	float: right;
+	margin: 0 24px 0 0;
+	width: 57px;
+	position: relative;
+	border-radius: 5px;
+	color: #444444;
+	background-color: rgba(175, 175, 175, 0.76);
+	padding: 0px 5px;
+	font-size: 16px;
+	line-height: 29px;
+	cursor: pointer;
+	text-align: center;
+}
+
+.restart:hover {
+	color: black;
+}
+
+h4 {
+	padding: 12px 0 13px 0;
+	font-size: 21px;
+}
+
+ul {
+	padding: 10px 0 0 42px;
+}
+
+ul li {
+	padding: 2px 0 10px;
+	font-size: 16px;
+}
+
+.option {
+	opacity: 0.4;
+	margin-right: 10px;
+	position: relative;
+	bottom: 2px;
+	cursor: pointer;
+}
+
+.outcome {
+	display: inline-block;
+	padding: 15px 0 10px 0px;
+	width: 100%;
+	text-align: left;
+	font-size: 16px;
+	line-height: 30px;
+}
+
+#correct {
+	display: inline-block;
+	color: rgb(28, 77, 27);
+	font-size: 16px;
+}
+
+#incorrect {
+	display: inline-block;
+	color: rgb(77, 27, 27);
+}
+
+#correct-answer {
+	display: inline-block;
+	padding-left: 4px;
+}
+
+#next {
+	display: inline-block;
+	float: right;
+	margin: 0 24px 0 0;
+	width: 57px;
+	position: relative;
+	border-radius: 5px;
+	color: #444444;
+	background-color: rgba(175, 175, 175, 0.76);
+	padding: 0px 5px;
+	font-size: 16px;
+	line-height: 29px;
+	cursor: pointer;
+	text-align: center;
+}
+
+#next:hover {
+	color: black;
+}
+
+.correct-answer {
+	color: rgb(153, 153, 153);
+}
+
+.reset {
+	margin-right: 267px;
+}
+
+.quiz-end {
+	margin: 10px 0 0 0;
+	float: left;
+}
+
+/* Firefox specific styles for heading */
+@-moz-document url-prefix() { 
+	h1 {
+	font-size: 44px;
+	}
+}
+
