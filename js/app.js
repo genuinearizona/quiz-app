@@ -16,11 +16,11 @@ function Question(currentQuestion,answers,correct) {
 	this.correct = correct;
 }
 
-questions [0] = new Question ("Who is famous for doing the first 900?",["Bob Burnquist", "Tony Hawk", "Andy Mac Donald", "Chad Muska", "Rodney Mullen"], 1);
-questions [1] = new Question ("How high is the world record high ollie?",["place", "place", "45 in (114.3 cm)", "place", "place"], 2);
-questions [2] = new Question ("Who has earned more prize money than any skateboarder in history?",["Tony Hawk", "Ryan Sheckler" , "Paul Rodriguez", "Steve Caballero", "Nyjah Huston"], 4);
-questions [3] = new Question ("Which one of these is not a skateboarding trick?",["Kickflip", "Hardflip", "Heelflip", "Toeflip", "Fingerflip"], 3);
-questions [4] = new Question ("What material revolutioised skateboard wheels in the 1970?",["Polyurethane", "Rubber", "Clay", "Wood", "Carbon Fibre"], 0);
+questions [0] = new Question ("Name an animal that starts with the letter S",["Seal", "Snake", "Skunk", "Sheep", "Squirrel"], 1);
+questions [1] = new Question ("Name an animal you might see on Old McDonald's farm",["Pig", "Duck", "Cow", "Chick", "Horse"], 2);
+questions [2] = new Question ("Name something found in every home",["Bed", "Refrigerator" , "Bathroom", "Kitchen", "Television"], 4);
+questions [3] = new Question ("Name an ugly dog breed",["Pitbull", "Chinese Crested", "Poodle", "Pug", "Bulldog"], 3);
+questions [4] = new Question ("Name something you push",["Cart", "Husband", "Door", "Vacuum", "Lawn Mower"], 0);
 
 
 

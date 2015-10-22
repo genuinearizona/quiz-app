@@ -4,9 +4,9 @@ body {
     background-color: rgb(49, 49, 49);
 }
 
-.bgimg {
-	background: url(artist.jpg) no-repeat;
-    background-size: cover;
+.image {
+	background: url(../images/famfued.jpg)no-repeat;
+    background-size:cover;
     width: 100%;
     height: 100%;
     position: fixed;
